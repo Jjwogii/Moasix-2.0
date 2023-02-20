@@ -39,7 +39,7 @@ export class AboutCommand extends BaseCommand {
             [i18n.__("commands.general.about.botVersionString"), pkg.version],
             [i18n.__("commands.general.about.commitString"), this.client.utils.getCommitHash("HEAD")],
             [""],
-            [i18n.__("commands.general.about.sourceCodeString"), "discord.gg/oasix"]
+            [i18n.__("commands.general.about.sourceCodeString"), "https://discord.gg/oasix"]
         ];
         const value = createTable(values);
 
